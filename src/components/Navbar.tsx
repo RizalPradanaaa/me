@@ -8,7 +8,7 @@ export default function Navbar() {
                 <img src="./public/logo.png" alt="Logo" width={60}/>
         </NavigationMenu>
         <NavigationMenu className='hidden md:flex'>
-            <div className="flex gap-4">
+            <div className="flex gap-4 hover:text-sky-600 font-bold">
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Home
                 </NavigationMenuLink>
@@ -34,7 +34,7 @@ export default function Navbar() {
         <Sheet>
             <SheetTrigger className='md:hidden'>☰</SheetTrigger>
                 <SheetContent>
-                    <SheetHeader className='mt-4'>
+                    <SheetHeader>
                     <SheetTitle>Home</SheetTitle>
                     <SheetTitle>About</SheetTitle>
                     <SheetTitle>Skilss</SheetTitle>
