@@ -1,5 +1,6 @@
 import './App.css'
 import About from './components/About'
+import Contact from './components/Contact'
 import Navbar from './components/Navbar'
 import Sertificate from './components/Sertificate'
 import Skills from './components/Skills'
@@ -11,6 +12,7 @@ function App() {
     <About/>
     <Skills/>
     <Sertificate/>
+    <Contact/>
     </div>
   )
 }
