@@ -53,7 +53,10 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+        fontFamily: {
+            'custom': ['JetBrains Mono', 'Fira Code']
+        }
   	}
   },
   plugins: [require("tailwindcss-animate")],

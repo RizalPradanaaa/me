@@ -3,11 +3,11 @@ import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from './ui
 
 export default function Navbar() {
   return (
-    <div className="flex items-center justify-between w-full px-4 font-poppins font-bold">
+    <div className="flex items-center justify-between w-full px-4 font-bold">
         <NavigationMenu>
                 <img src="./public/logo.png" alt="Logo" width={60}/>
         </NavigationMenu>
-        <NavigationMenu className='hidden md:flex'>
+        <NavigationMenu className='hidden md:flex '>
             <div className="flex gap-4 hover:text-sky-600 font-bold">
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     Home
@@ -16,7 +16,7 @@ export default function Navbar() {
                 About
                 </NavigationMenuLink>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                Skills
+                Tech stack
                 </NavigationMenuLink>
                 <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Projects
@@ -37,7 +37,7 @@ export default function Navbar() {
                     <SheetHeader>
                     <SheetTitle>Home</SheetTitle>
                     <SheetTitle>About</SheetTitle>
-                    <SheetTitle>Skilss</SheetTitle>
+                    <SheetTitle>Tech stack</SheetTitle>
                     <SheetTitle>Projects</SheetTitle>
                     <SheetTitle>Serticate</SheetTitle>
                     <SheetTitle>Contact</SheetTitle>

@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <div className='mt-16 md:mt-24 font-poppins'>
+        <div className='mt-16 md:mt-24 mb-14 md:mb-20'>
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-800">
             Hi, I am <span className='text-sky-600'>Rizal Pradanaaa</span>👋.
             </h1>

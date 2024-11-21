@@ -1,0 +1,87 @@
+[
+    {
+        "name": "HTML",
+        "logo": "/img/html.svg",
+        "type": "Language"
+    },
+    {
+        "name": "CSS",
+        "logo": "/img/css.svg"
+    },
+    {
+        "name": "PHP",
+        "logo": "/img/php.svg"
+    },
+    {
+        "name": "Java Script",
+        "logo": "/img/js.svg"
+    },
+    {
+        "name": "Type Script",
+        "logo": "/img/ts.svg"
+    },
+    {
+        "name": "Python",
+        "logo": "/img/python.svg"
+    },
+    {
+        "name": "Golang",
+        "logo": "/img/go.svg"
+    },
+    {
+        "name": "Bootstrap",
+        "logo": "/img/bootstrap.svg"
+    },
+    {
+        "name": "Tailwind",
+        "logo": "/img/tailwind.svg"
+    },
+    {
+        "name": "Laravel",
+        "logo": "/img/laravel.svg"
+    },
+    {
+        "name": "Codeigniter",
+        "logo": "/img/codeigniter.svg"
+    },
+    {
+        "name": "React JS",
+        "logo": "/img/react.svg"
+    },
+    {
+        "name": "Node JS",
+        "logo": "/img/nodejs.svg"
+    },
+    {
+        "name": "Express JS",
+        "logo": "/img/express.svg"
+    },
+    {
+        "name": "Flask",
+        "logo": "/img/flask.svg"
+    },
+    {
+        "name": "Mysql",
+        "logo": "/img/mysql.svg"
+    },
+    {
+        "name": "Postgre SQL",
+        "logo": "/img/postgresql.svg"
+    },
+    {
+        "name": "Github",
+        "logo": "/img/github.svg"
+    },
+    {
+        "name": "Gitlab",
+        "logo": "/img/gitlab.svg"
+    },
+    {
+        "name": "Vite",
+        "logo": "/img/vite.svg"
+    },
+    {
+        "name": "Google Cloud",
+        "logo": "/img/googlecloud.svg"
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "React Native",
+        "logo": "/img/react.svg",
+        "type": "Language"
+    },
+    {
+        "name": "Linux",
+        "logo": "/img/linux.svg"
+    },
+    {
+        "name": "Kotlin",
+        "logo": "/img/kotlin.svg"
+    },
+    {
+        "name": "Rust",
+        "logo": "/img/rust.svg"
+    },
+    {
+        "name": "Next JS",
+        "logo": "/img/nextjs.svg"
+    },
+    {
+        "name": "Nest JS",
+        "logo": "/img/nestjs.svg"
+    }
+]
