@@ -40,7 +40,7 @@ export default function Contact() {
         <p className="w-full border-b border-slate-400 mb-8"></p>
             <div className="flex justify-between flex-wrap">
                 <code className="relative rounded bg-muted px-[0.3rem] py-[0.2rem] font-mono text-sm font-semibold mx-auto md:m-0">
-                © {new Date().getFullYear()} @RizalPradana/portofilo
+                © {new Date().getFullYear()} @RizalPradana/portofolio
                 </code>
                 <div className="flex gap-2 md:gap-3 mt-8 md:mt-2 mx-auto md:m-0">
                     <svg className="h-8 w-8 text-dark hover:text-sky-500"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
