@@ -83,5 +83,9 @@
     {
         "name": "Google Cloud",
         "logo": "/img/googlecloud.svg"
+    },
+    {
+        "name": "Prisma ",
+        "logo": "/img/prisma.svg"
     }
 ]

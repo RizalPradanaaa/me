@@ -29,6 +29,13 @@ export default function Sertificate() {
             <CarouselItem className="md:basis-1/2 lg:basis-1/3">
                 <Card className="shadow-md border-2 transition-all pt-4 -pb-10">
                     <CardContent>
+                        <img src="/img/sertif/nodejs.jpg" alt="Node JS Sertificate" />
+                    </CardContent>
+                </Card>
+            </CarouselItem>
+            <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                <Card className="shadow-md border-2 transition-all pt-4 -pb-10">
+                    <CardContent>
                         <img src="/img/sertif/golang.jpg" alt="Golang Sertificate" />
                     </CardContent>
                 </Card>
