@@ -2,15 +2,15 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from './ui/card'
 
 export default function Project() {
   return (
-    <div className="mt-16 w-full">
-     <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-800">
+    <div className="mt-16 w-full scroll-mt-28 md:scroll-mt-32" id="projects">
+     <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-800 dark:text-slate-300">
         &lt;List <span className="text-sky-600">Projects</span>/&gt;
      </h1>
-    <blockquote className=" p-5 italic md:text-lg text-slate-600 lg:w-2/3 mx-auto md:mt-8 -mb-6">
+    <blockquote className=" p-5 italic md:text-lg text-slate-600 lg:w-2/3 mx-auto md:mt-8 -mb-6 dark:text-slate-300">
             "Here is a list of some projects I have created;"
     </blockquote>
     <div className="flex justify-center items-center gap-4 w-full mx-auto mt-8 flex-wrap">
-        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md">
+        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
                     <img src="/img/projects/project1.png" alt="X-Detect" />
@@ -21,7 +21,7 @@ export default function Project() {
                 </h4>
                 </CardTitle>
             </CardHeader>
-            <CardContent className="px-6 italic text-left md:text-justify font-md text-slate-600">
+            <CardContent className="px-6 italic text-left md:text-justify font-md text-slate-600 dark:text-slate-300">
                 <p>his innovative mobile application can detect diseases through chest X-ray scans and provide accurate diagnoses. In this project, I was responsible for the backend, creating the API to connect the model with the mobile application.</p>
             </CardContent>
             <CardFooter className="px-6 italic font-md text-left flex gap-4">
@@ -31,7 +31,7 @@ export default function Project() {
                 <img src="/img/googlecloud.svg" width={30} alt="Google Cloud"/>
             </CardFooter>
         </Card>
-        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md">
+        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md dark:bg-slate-800 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
                     <img src="/img/projects/project2.png" alt="SM Corner" />
@@ -42,7 +42,7 @@ export default function Project() {
                 </h4>
                 </CardTitle>
             </CardHeader>
-            <CardContent className="px-6 italic text-left md:text-justify font-md text-slate-600">
+            <CardContent className="px-6 italic text-left md:text-justify font-md text-slate-600 dark:text-slate-300 ">
                 <p>A sales information system website for managing inventory at the Suara Muhammadiyah Mayong Unit. I developed the entire system as a full-stack developer.</p>
             </CardContent>
             <CardFooter className="px-6 italic font-md text-left flex gap-4">
@@ -53,7 +53,7 @@ export default function Project() {
                 <img src="/img/mysql.svg" width={30} alt="MySQL"/>
             </CardFooter>
         </Card>
-        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md">
+        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md dark:bg-slate-800 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
                     <img src="/img/projects/project3.png" alt="Stroke Prediction" />
@@ -64,14 +64,14 @@ export default function Project() {
                 </h4>
                 </CardTitle>
             </CardHeader>
-            <CardContent className="px-6 italic text-left md:text-justify font-md text-slate-600">
+            <CardContent className="px-6 italic text-left md:text-justify font-md text-slate-600 dark:text-slate-300">
                 <p>A website for early detection of stroke based on relevant labels, providing effective solutions for prevention and early diagnosis.</p>
             </CardContent>
             <CardFooter className="px-6 italic font-md text-left flex gap-4">
                 <img src="/img/python.svg" width={30} alt="Python"/>
             </CardFooter>
         </Card>
-        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md">
+        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md dark:bg-slate-800 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
                     <img src="/img/projects/project4.png" alt="Early detection of diabetes" />
@@ -82,7 +82,7 @@ export default function Project() {
                 </h4>
                 </CardTitle>
             </CardHeader>
-            <CardContent className="px-6 italic text-left md:text-justify font-md text-slate-600">
+            <CardContent className="px-6 italic text-left md:text-justify font-md text-slate-600 dark:text-slate-300">
                 <p>"Website for early detection of diabetes, a final project for my studies focused on data processing and improving the accuracy of the random forest model using genetic algorithms.</p>
             </CardContent>
             <CardFooter className="px-6 italic font-md text-left flex gap-4">

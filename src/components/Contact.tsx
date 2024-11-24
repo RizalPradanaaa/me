@@ -3,19 +3,19 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "./ui/card"
 
 export default function Contact() {
   return (
-    <div className="mt-8">
-        <h1 className="scroll-m-20 text-3xl md:text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-800 mb-8">
+    <div className="mt-8 scroll-mt-28 md:scroll-mt-32" id="contact">
+        <h1 className="scroll-m-20 text-3xl md:text-4xl font-extrabold tracking-tight lg:text-5xl text-slate-800 mb-8 dark:text-slate-300">
             &lt;Contact/&gt;
         </h1>
-        <Card className="bg-slate-100 border-2 shadow-md -pt-8 md:w-2/3 mx-auto">
+        <Card className="bg-slate-100 border-2 shadow-md -pt-8 md:w-2/3 mx-auto dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader>
                 <CardTitle>
-                <blockquote className="italic text-[20px] text-slate-600 lg:w-2/3 mx-auto md:mt-8 mb-3">
+                <blockquote className="italic text-[20px] text-slate-600 lg:w-2/3 mx-auto md:mt-8 mb-3 dark:text-slate-300">
                     "Want to hire me as a web programmer or discuss web development? Let's talk!"
                 </blockquote>
                 </CardTitle>
             </CardHeader>
-            <CardContent className="text-left text-sm md:px-16 italic text-slate-600 w-full font-semibold">
+            <CardContent className="text-left text-sm md:px-16 italic text-slate-600 w-full font-semibold dark:text-slate-300">
                 <h3 className="mb-1">What I can do for you?</h3>
                 <ul className="list-disc list-inside space-y-2 text-justify md:text:left">
                     <li>Build full-stack web applications using modern technologies.</li>
