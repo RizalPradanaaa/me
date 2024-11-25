@@ -10,7 +10,7 @@ export default function Project() {
     <blockquote className=" p-5 italic md:text-lg text-slate-600 lg:w-2/3 mx-auto md:mt-8 -mb-6 dark:text-slate-300">
             "Here is a list of some projects I have created;"
     </blockquote>
-    <div className="flex justify-center items-center gap-4 w-full mx-auto mt-8 flex-wrap">
+    <div className="flex justify-center gap-4 w-full mx-auto mt-8 flex-wrap">
         <Card className="w-full md:w-1/3 shadow-xl border border-dark rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
