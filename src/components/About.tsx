@@ -1,3 +1,4 @@
+import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "./ui/alert-dialog";
 import { Button } from "./ui/button";
 
 export default function About() {
@@ -23,7 +24,48 @@ export default function About() {
 
                 <svg className="h-8 w-8 text-slate-600 hover:text-sky-600"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />  <rect x="2" y="9" width="4" height="12" />  <circle cx="4" cy="4" r="2" /></svg>
             </div>
-            <Button className="bg-sky-500 rounded-lg hover:bg-sky-800 font-extrabold shadow-md border-2 hover:text-white border-dark mt-4 px-5 py-6 dark:text-white dark:border-slate-500">Download CV</Button>
+            <AlertDialog>
+    <AlertDialogTrigger>
+        <Button className="bg-sky-500 rounded-lg hover:bg-sky-800 font-extrabold shadow-md border-2 hover:text-white border-dark mt-4 px-5 py-6 dark:text-white dark:border-slate-500">
+            View CV
+        </Button>
+    </AlertDialogTrigger>
+    <AlertDialogContent>
+        <AlertDialogHeader>
+            <AlertDialogDescription>
+                <div
+                    style={{
+                        overflowY: "auto", // Enable vertical scrolling only
+                        overflowX: "hidden", // Disable horizontal scrolling
+                        maxHeight: "500px", // Limit the height of the container
+                        borderRadius: "8px",
+                        border: "1px solid #ddd",
+                    }}
+                >
+                    <img
+                        src="/img/rizal-pradana-cv.png"
+                        alt="Rizal Paradana CV"
+                        style={{
+                            display: "block",
+                            maxWidth: "100%", // Ensure no horizontal overflow
+                            height: "auto", // Keep the aspect ratio
+                            transform: "scale(1.2)", // Zoom in
+                            transformOrigin: "top center", // Ensure zoom from the top-center
+                        }}
+                    />
+                </div>
+            </AlertDialogDescription>
+        </AlertDialogHeader>
+        <AlertDialogFooter>
+            <AlertDialogCancel className="text-white bg-sky-600 hover:bg-sky-700">Close</AlertDialogCancel>
+        </AlertDialogFooter>
+    </AlertDialogContent>
+</AlertDialog>
+
+
+
+
+
         </div>
       )
 }
