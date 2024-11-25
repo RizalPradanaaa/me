@@ -3,7 +3,7 @@ import { NavigationMenu, NavigationMenuLink, navigationMenuTriggerStyle } from '
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from './ui/sheet'
 
 export default function Navbar() {
-    const scrollToElement = (id) => {
+    const scrollToElement = (id: string) => {
         const target = document.getElementById(id);
         if (target) {
           target.scrollIntoView({ behavior: "smooth" });
