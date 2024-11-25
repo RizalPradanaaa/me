@@ -128,7 +128,7 @@ export default function Project() {
         <Card className="w-full md:w-1/3 shadow-xl border border-dark rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
-                    <img src="/img/projects/project4.png" alt="Early detection of diabetes" />
+                    <img src="/img/projects/project4.png" alt="My Portofolio" />
                 </CardTitle>
                 <CardTitle>
                 <h4 className="px-6 py-4 scroll-m-20 text-lg font-semibold tracking-tight text-left">
@@ -160,7 +160,7 @@ export default function Project() {
         <Card className="w-full md:w-1/3 shadow-xl border border-dark rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
-                    <img src="/img/projects/project6.png" alt="Early detection of diabetes" />
+                    <img src="/img/projects/project6.png" alt="Simple Restful API with Golang" />
                 </CardTitle>
                 <CardTitle>
                 <h4 className="px-6 py-4 scroll-m-20 text-lg font-semibold tracking-tight text-left">
@@ -205,6 +205,7 @@ export default function Project() {
                 <div className="flex gap-4">
                 <img src="/img/python.svg" width={30} alt="Python"/>
                 <img src="/img/mysql.svg" width={30} alt="MySQL"/>
+                <img src="/img/flask.svg" width={30} alt="Flask"/>
                 <img src="/img/bootstrap.svg" width={30} alt="Bootstrap"/>
                 </div>
                 <div className="flex text-xs gap-4">
