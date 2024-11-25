@@ -14,7 +14,7 @@ export default function Skills() {
             {logoData.map((item, index) => (
                <Card
                key={index}
-               className="flex flex-col w-1/5 md:w-1/12 shadow-md border-2 hover:shadow-lg transition-all"
+               className="flex flex-col w-1/5 md:w-1/12 shadow-xl border hover:shadow-lg transition-all"
              >
                <CardContent className="p-3 relative dark:bg-slate-800 dark:border-slate-500 dark:border-2 dark:rounded-md">
                  <img
@@ -39,7 +39,7 @@ export default function Skills() {
             {logoLearningData.map((item, index) => (
                <Card
                key={index}
-               className="flex flex-col w-1/5 md:w-1/12 shadow-md border-2 hover:shadow-lg transition-all"
+               className="flex flex-col w-1/5 md:w-1/12 shadow-xl border hover:shadow-lg transition-all"
              >
                <CardContent className="p-3 relative dark:bg-slate-800 dark:border-slate-500 dark:border-2 dark:rounded-md">
                  <img

@@ -11,7 +11,7 @@ export default function Project() {
             "Here is a list of some projects I have created;"
     </blockquote>
     <div className="flex justify-center items-center gap-4 w-full mx-auto mt-8 flex-wrap">
-        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
+        <Card className="w-full md:w-1/3 shadow-xl border border-dark rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
                     <img src="/img/projects/project1.png" alt="X-Detect" />
@@ -40,7 +40,7 @@ export default function Project() {
                 </div>
             </CardFooter>
         </Card>
-        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md dark:bg-slate-800 dark:border-slate-500 dark:border-2 dark:rounded-md">
+        <Card className="w-full md:w-1/3 shadow-xl border border-dark rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
                     <img src="/img/projects/project2.png" alt="SM Corner" />
@@ -70,7 +70,7 @@ export default function Project() {
                 </div>
             </CardFooter>
         </Card>
-        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md dark:bg-slate-800 dark:border-slate-500 dark:border-2 dark:rounded-md">
+        <Card className="w-full md:w-1/3 shadow-xl border border-dark rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
                     <img src="/img/projects/project3.png" alt="Stroke Prediction" />
@@ -96,7 +96,36 @@ export default function Project() {
                 </div>
             </CardFooter>
         </Card>
-        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md dark:bg-slate-800 dark:border-slate-500 dark:border-2 dark:rounded-md">
+        <Card className="w-full md:w-1/3 shadow-xl border border-dark rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
+            <CardHeader className="p-0">
+                <CardTitle>
+                    <img src="/img/projects/project7.png" alt="Early detection of diabetes" />
+                </CardTitle>
+                <CardTitle>
+                <h4 className="px-6 py-4 scroll-m-20 text-lg font-semibold tracking-tight text-left">
+                   Website - MSI Kota Semarang
+                </h4>
+                </CardTitle>
+            </CardHeader>
+            <CardContent className="px-6 italic text-left md:text-justify font-md text-slate-600 dark:text-slate-300">
+            <p>A landing page website for Yayasan Mentari Sehat Kota Semarang, developed during my internship at Bakrie Center Foundation in Central Java Province.</p>
+            </CardContent>
+            <CardFooter className="flex flex-col px-6 italic font-md text-left gap-4">
+                <div className="flex gap-4">
+                <img src="/img/html.svg" width={30} alt="HTML"/>
+                <img src="/img/css.svg" width={30} alt="CSS"/>
+                <img src="/img/laravel.svg" width={30} alt="Laravel"/>
+                <img src="/img/bootstrap.svg" width={30} alt="Bootrap"/>
+                </div>
+                <div className="flex text-xs gap-4">
+                    <a href="https://yayasanmsikotasmg.com/public/" target='_blank' className='items-center underline hover:text-sky-600'>
+                        <ExternalLinkIcon size={15} className="inline-block mr-1" />
+                        View project
+                    </a>
+                </div>
+            </CardFooter>
+        </Card>
+        <Card className="w-full md:w-1/3 shadow-xl border border-dark rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
                     <img src="/img/projects/project4.png" alt="Early detection of diabetes" />
@@ -128,7 +157,37 @@ export default function Project() {
                 </div>
             </CardFooter>
         </Card>
-        <Card className="w-full md:w-1/3 shadow-md border-1 rounded-md dark:bg-slate-800 dark:border-slate-500 dark:border-2 dark:rounded-md">
+        <Card className="w-full md:w-1/3 shadow-xl border border-dark rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
+            <CardHeader className="p-0">
+                <CardTitle>
+                    <img src="/img/projects/project6.png" alt="Early detection of diabetes" />
+                </CardTitle>
+                <CardTitle>
+                <h4 className="px-6 py-4 scroll-m-20 text-lg font-semibold tracking-tight text-left">
+                    Simple Restful API with Golang
+                </h4>
+                </CardTitle>
+            </CardHeader>
+            <CardContent className="px-6 italic text-left md:text-justify font-md text-slate-600 dark:text-slate-300">
+                <p>This is a simple RESTful API project I built using Golang. It falls under the category of data management with a clean structure, developed as part of my learning from the 'Programmer Zaman Now' course on Udemy.</p>
+            </CardContent>
+            <CardFooter className="flex flex-col px-6 italic font-md text-left gap-4">
+                <div className="flex gap-4">
+                <img src="/img/go.svg" width={30} alt="Golang"/>
+                </div>
+                <div className="flex text-xs gap-4">
+                    <a href="https://app.swaggerhub.com/apis/RIZALNAWANG1/category-res_tful_api/1.0.0" target='_blank' className='items-center underline hover:text-sky-600'>
+                        <ExternalLinkIcon size={15} className="inline-block mr-1" />
+                        View project
+                    </a>
+                    <a href="https://github.com/RizalPradanaaa/golang-restful-api" target='_blank' className='items-center underline hover:text-sky-600'>
+                        <GithubIcon size={15} className="inline-block mr-1" />
+                        View source code
+                    </a>
+                </div>
+            </CardFooter>
+        </Card>
+        <Card className="w-full md:w-1/3 shadow-xl border border-dark rounded-md dark:bg-slate-900 dark:border-slate-500 dark:border-2 dark:rounded-md">
             <CardHeader className="p-0">
                 <CardTitle>
                     <img src="/img/projects/project5.png" alt="Early detection of diabetes" />
